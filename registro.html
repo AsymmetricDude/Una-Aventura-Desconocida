@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+        <link rel="stylesheet" href="fuentes/fuentes.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+
+    label{ color: white; font-size:300%;      
+  }
+  form {margin-left: 27%;
+        margin-top: 2%;}
+
+   h1{ color: white; font-size:300%; margin-left: 37%;
+        margin-top: 1%;}
+
+    </style>
+
+</head>
+<body style="font-family: surabanglus; 
+color: white; font-size: 15px; background-color: #268BEB;">
+<div style=" background-color: #268BEB; width: 800px;margin-left: 22%; padding-bottom: 20px; text-align: justify; ">
+    <h1>Registrate!</h1>
+    <form action="registro.php" method="post" style="font-size: 13px; margin-left: 250px;">
+    <label for="">Ingresa tu contraseña:</label><br><br>
+    <input class="form-control"  style="width: 50%;" type="password" name="contra"><br><br>
+    <label for="">Ingresa el correo:</label><br>
+    <input class="form-control" style="width: 50%;"  type="mail" name="correo"><br><br>
+    <label for="">Ingresa tu nombre completo:</label><br>
+    <input class="form-control"  style="width: 50%;" type="text" name="nombre"><br><br>
+    <label for="">Ingresa tu edad:</label><br>
+    <input class="form-control"  style="width: 50%;" type="number" name="edad"><br><br>
+
+    <input type="submit" class="btn btn-light" style=" width: 300px; position: relative; right: 3%; background: #3d277a; color: white; ">
+
+    </form>
+    </div>
+    <img src="img/isma.png" style="position: absolute;bottom: 10%;">
+    <script src="js/codigo.js"></script>
+</body>
+</html>
